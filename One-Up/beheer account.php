@@ -35,11 +35,11 @@ if ($_SESSION['ingelogd'] != true) {
                 <li><h1 class="loginform__h1">Instellingen</h1></li>
                 <li><a class="bewerken-button" href="verander gebruikersnaam.php">Verander gebruikersnaam</a></li>
                 <li><a class="bewerken-button" href="verander wachtwoord.php">Verander wachtwoord</a></li>
-                <li><a class="bewerken-button" href="verwijder account.php">Verwijder account</a></li>
+                <li><a class="bewerken-button verwijder-button" href="verwijder account.php">Verwijder account</a></li>
                 <?php
-                require('dbconnect.php');
+                require('php/dbconnect.php');
                 if ($_SESSION['ingelogd'] && $_SESSION['permission'] >= 2) {
-                ?> <li><a class="bewerken-button" href="bewerken2.php">Database Bewerken</a></li> <?php
+                ?> <li><a class="bewerken-button" href="bewerken2.php">Database bewerken</a></li> <?php
                 }
                 ?>
             </ul>

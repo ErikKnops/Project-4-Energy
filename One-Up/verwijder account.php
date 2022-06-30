@@ -115,7 +115,7 @@ if (isset($_POST['submitVerwijder']) && $_SESSION['verwijderFase2']) {
                         '.  "<strong>" . $error . "</strong>" .'<br>
                         <input type="text" name="username" placeholder="Gebruikersnaam"/><br>
                         <input type="password" name="password" placeholder="Wachtwoord"/><br><br>
-                        <input type="submit" name="submitVerwijder" value="Verwijder" class="extra-margin"/>
+                        <input type="submit" name="submitVerwijder" value="Verwijder" class="extra-margin verwijder-button"/>
                         <input type="submit" name="annuleerVerwijderen" value="Annuleren" class="extra-margin"/>
                     </form>
                 ';

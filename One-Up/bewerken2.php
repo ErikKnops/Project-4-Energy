@@ -873,7 +873,7 @@ if (isset($_POST['submit-reactie-update'])) {
                     </table>
                 </form>
             </div>
-            <a class="bewerken-button" href="bewerken.php" style="margin: 30px;">Database Bewerken 1.0</a>
+            <a class="bewerken-button" href="bewerken.php" style="margin: 30px;">Database bewerken 1.0</a>
         </main>
 
         <?php get_footer(); ?>
